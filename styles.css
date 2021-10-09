@@ -17,12 +17,11 @@ body {
 }
 
 
-li {
-
-  list-style:none;
-}
-
-a {
+nav a {
   color:white;
-  text-decoration:none;
 }
+
+main {
+  color:white;
+}
+
