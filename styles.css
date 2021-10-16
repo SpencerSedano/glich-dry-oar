@@ -3,18 +3,25 @@
 h1, h2, h3, h4, h5, h6 {
   background-color:salmon;
   padding:1em;
-  margin-bottom: -0.8rem;
+  margin-bottom: -1rem;
   line-height: 2em;
+  color:white;
 }
 
 #content {
   max-width: 960px;
   margin: 0 auto;
+
 }
 
-.home-paragraph-3 {
+#banner-img {
+  width:100%;
+}
+
+.home-paragraph-3, .home-paragraph-2, .home-paragraph-1{
   text-align:center;
   color:white;
+  padding:1rem 0rem;
 }
 
 body {
@@ -34,4 +41,8 @@ main {
 
 footer {
   color:white;
+}
+
+.align-center {
+  text-align:center;
 }
