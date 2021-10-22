@@ -32,27 +32,37 @@
 } 
 /* Activity 2 styles */ 
 .content2 {
-  /* This is the parent of the activity 2 boxes. */
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas: 
+    "red2 ."
+    ". green2"
+    ". yellow2";
 }
 .red2 {
   width: 100px; 
   height: 100px; 
   background-color: red; 
+  grid-area: red2;
 } 
 .green2 { 
   width: 100px; 
   height: 100px; 
   background-color: green; 
+  grid-area: green2;
 } 
 .yellow2 {
   width: 100px; 
   height: 100px; 
   background-color: gold; 
+  grid-area: yellow2;
 } 
 .blue2 {
   width: 100px; 
   height: 100px; 
   background-color: blue; 
+  grid-area: blue2;
 } 
 /* Activity 3 styles */ 
 .content3 {
