@@ -34,11 +34,11 @@
 .content2 {
   display:grid;
   grid-template-columns: 1fr 1fr 1fr 1fr; 
-  grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-areas: 
     "red2 ."
     ". green2"
-    "yellow2 blue2";
+    ". . yellow2"
+    ". blue2";
 }
 .red2 {
   width: 100px; 
