@@ -37,7 +37,7 @@
   grid-template-areas: 
     "red2 ."
     ". green2"
-    ". . yellow2"
+    ". yellow2"
     ". blue2";
 }
 .red2 {
