@@ -8,13 +8,18 @@ h1, h2, h3, h4, h5, h6 {
   color:white;
 }
 
+.home-grid {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
 #content {
   max-width: 960px;
   margin: 0 auto;
 
 }
 
-#banner-img {
+.banner-box img {
   width:100%;
 }
 
