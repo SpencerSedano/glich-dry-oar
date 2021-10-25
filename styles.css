@@ -1,16 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 h1, h2, h3, h4, h5, h6 {
-  background-color:salmon;
+  background-color:#D1F0B1;
   padding:1em;
   margin-bottom: -1rem;
   line-height: 2em;
-  color:white;
+  color:black;
 }
 
 h2 {
     border-top: 5px double;
-  border-bottom: 5px double;}
+    border-bottom: 5px double;
+    border-color: #335145;
+}
+
+.home-headline-2 {
+  margin-left:25px;
 }
 
 img {
@@ -120,6 +125,13 @@ nav a {
 
 main {
   color:white;
+}
+
+.home-left-img,
+.home-right-img {
+     border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 5px 5px 5px #999;
 }
 
 footer {
