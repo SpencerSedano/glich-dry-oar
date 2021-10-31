@@ -4,6 +4,8 @@
     font-family: 'Montserrat', sans-serif, Helvetica;  
 }
 
+
+
 .headlines {
   background-color:#90CCF4;
   padding:1em;
@@ -104,13 +106,13 @@ footer div {
   grid-row: 7/8; 
 }
 
-.svg-position {
-  z-index:2;
-}
 
 svg {
   position:absolute;
+ 
   left:0;
+  top:100%;
+  background-color:yellow;
   z-index:-1;
 }
 
@@ -132,7 +134,11 @@ svg {
 
 body {
   /*background-color: #1e6091	;*/
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
+
+
 
 
 nav a {
