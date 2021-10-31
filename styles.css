@@ -5,7 +5,7 @@
 }
 
 .headlines {
-  background-color:#90e0ef;
+  background-color:#31708E;
   padding:1em;
   margin-bottom: -1rem;
   line-height: 2em;
@@ -153,11 +153,8 @@ footer {
 /*Rivers Page*/
 
 svg {
-  height:500px;
-  width:100%;
   position:absolute;
   top:50%;
-  
   z-index:-1;
   
 }
