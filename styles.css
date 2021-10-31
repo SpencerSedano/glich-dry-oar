@@ -107,6 +107,8 @@ footer div {
 svg {
   position:absolute;
   left:0;
+  top:61%;
+  height:100vh;
   z-index:-1;
 }
 
@@ -156,7 +158,6 @@ footer {
 }
 
 /*Rivers Page*/
-
 
 
 #banner-img-river {
