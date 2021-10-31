@@ -155,10 +155,11 @@ footer {
 #banner-img-river {
   max-height:256.8px;
   object-fit:cover;
-  
+}
+
 .rivers-headline {
     background-color: #90e0ef;
-  }
+}
 
 .river-grid {
   display:grid;
