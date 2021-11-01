@@ -240,31 +240,30 @@ footer {
     max-height: 400px;
   width:100%;
   object-fit:cover;
-  content: " hi there"; //your text here
-    white-space: nowrap;
-  color:white;
 }
 
 
 
 #image-text2 {
-  position:absolute;
-  top:90%;
-  left:68%;
-  transform: translate(-50%, -50%);
+  grid-column:  4/6;
+  grid-row: 2/3;
   color:white;
-  font-size: 4vmin;
+  font-size:1.5em;
+  background-color:black;
+  max-width:200px;
+  max-height:60px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  position:relative;
+  top:50%;
+}
+#image-text2:hover {
+  background-color:black;
+
 }
 
 
-#image-text3 {
-  position:absolute;
-  top:20%;
-  left:50%;
-  transform: translate(-50%, -50%);
-  color:white;
-  font-size: 4vmin;
-}
 
 
 .spacing {
