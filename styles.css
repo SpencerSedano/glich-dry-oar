@@ -45,24 +45,33 @@ nav ul {
 nav a {
   
   text-decoration:none;
-  padding:2rem;
+  padding:1.5rem;
+  transition: 0.5s ease-out; 
+
 }
 
 nav a:hover {
   text-decoration:underline;
   background: #F3D250;
   color:black;
+  transition: 0.7s ease-in-out; 
 }
 
 footer {
   display:grid;
   grid-template-columns: 2fr 1fr;
   height:55px;
+  background-color: #F3D250;
+  padding:2rem;
 }
 
 footer div {
   display:flex;
   justify-content: flex-end;
+}
+
+.social-positioning {
+  marginr
 }
 
 .home-grid {
@@ -244,5 +253,8 @@ footer {
     }
   .home-grid, nav ul {
     display: block;
+  }
+  nav a {
+    padding:0;
   }
 } 
