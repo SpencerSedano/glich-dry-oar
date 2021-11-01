@@ -50,7 +50,7 @@ nav a {
 
 nav a:hover {
   text-decoration:underline;
-  background: #90e0ef;
+  background: #F3D250;
   color:black;
 }
 
@@ -126,6 +126,7 @@ body {
   /*background-color: #1e6091	;*/
 }
 
+/*
 .background-waves {
   position:absolute;
   left:0;
@@ -134,6 +135,8 @@ body {
   z-index:-1;
   opacity: .5;
 }
+
+*/
 
 
 
@@ -186,7 +189,7 @@ footer {
 
 .river-grid {
   display:grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   gap: 1em;
 }
 
