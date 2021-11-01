@@ -7,7 +7,7 @@
 
 
 .headlines {
-  background-color:#90CCF4;
+  background-color:#caf0f8;
   padding:1em;
   margin-bottom: -1rem;
   line-height: 2em;
@@ -132,7 +132,7 @@ body {
   width:100%;
   height:100vh;
   z-index:-1;
-  opacity: .3;
+  opacity: .5;
 }
 
 
