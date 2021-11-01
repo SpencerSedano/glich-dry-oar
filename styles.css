@@ -106,16 +106,6 @@ footer div {
   grid-row: 7/8; 
 }
 
-
-svg {
-  position:absolute;
- 
-  left:0;
-  top:100%;
-  background-color:yellow;
-  z-index:-1;
-}
-
 #content {
   max-width: 960px;
   margin: 0 auto;
@@ -134,8 +124,12 @@ svg {
 
 body {
   /*background-color: #1e6091	;*/
-  display:grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.background-waves {
+  position:absolute;
+  width:100%;
+  z-index:-1;
 }
 
 
