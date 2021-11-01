@@ -247,10 +247,14 @@ footer {
 }
 
 .river-right-img{ 
-  max-width:100%;
+  width:100%;
+  height:400px;
+  object-fit:cover;
 }
 .river-left-img{
-  max-width:100%;
+    width:100%;
+  height:400px;
+  object-fit:cover;
 }
 #image-text2 {
     background-color:black;
