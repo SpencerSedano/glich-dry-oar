@@ -61,8 +61,8 @@ footer {
   display:grid;
   grid-template-columns: 2fr 1fr;
   height:55px;
-  background-color: #F3D250;
-  padding:2rem;
+  background-color: #ECECEC;
+  padding:1rem;
 }
 
 footer div {
@@ -71,7 +71,7 @@ footer div {
 }
 
 .social-positioning {
-  marginr
+  margin-right:3px;
 }
 
 .home-grid {
@@ -240,7 +240,32 @@ footer {
     max-height: 400px;
   width:100%;
   object-fit:cover;
+  content: " hi there"; //your text here
+    white-space: nowrap;
+  color:white;
 }
+
+
+
+#image-text2 {
+  position:absolute;
+  top:90%;
+  left:68%;
+  transform: translate(-50%, -50%);
+  color:white;
+  font-size: 4vmin;
+}
+
+
+#image-text3 {
+  position:absolute;
+  top:20%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  color:white;
+  font-size: 4vmin;
+}
+
 
 .spacing {
   height:80px;
