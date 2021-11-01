@@ -12,7 +12,6 @@
   margin-bottom: -1rem;
   line-height: 2em;
   color:white;
-  font-size:2em;
   text-align:center;
 }
 
@@ -88,7 +87,7 @@ footer div {
 }
 
 .home-paragraph-1 {
-  grid-column: 1/4;
+  grid-column: 2/4;
   grid-row: 2/3;
 }
 
@@ -103,7 +102,7 @@ footer div {
 }
 
 .home-paragraph-2 {
-  grid-column: 3/6;
+  grid-column: 5/6;
   grid-row: 5/7; 
 }
 
@@ -130,7 +129,6 @@ footer div {
 .home-paragraph-3, .home-paragraph-2, .home-paragraph-1{
   text-align:center;
   color:black;
-  padding:1rem 0rem;
 }
 
 body {
@@ -157,7 +155,7 @@ nav a {
 
 .home-left-img,
 .home-right-img {
-     border: 1px solid #ccc;
+    border: 1px solid #ccc;
     padding: 10px;
     box-shadow: 5px 5px 5px #999;
 }
