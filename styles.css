@@ -7,11 +7,11 @@
 
 
 .headlines {
-  background-color:#90E0EF;
+  background-color:#335145;
   padding:1em;
   margin-bottom: -1rem;
   line-height: 2em;
-  color:black;
+  color:white;
 }
 
 h2 {
@@ -133,7 +133,6 @@ footer div {
 
 body {
   /*background-color: #1e6091	;*/
-  background-color:#e0fbfc;
 }
 
 /*
@@ -149,15 +148,9 @@ body {
 */
 
 
-
-
 nav a {
   color:black;
   font-size: 1.1em;
-}
-
-main {
-  color:black;
 }
 
 .home-left-img,
@@ -194,7 +187,8 @@ footer {
 }
 
 .rivers-headline {
-    background-color: #90e0ef;
+    background-color: #335145;
+  color:white;
 }
 
 .river-grid {
