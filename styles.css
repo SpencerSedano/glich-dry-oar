@@ -299,6 +299,17 @@ footer {
   height:80px;
 }
 
+
+/*Contact Us Page*/
+
+.contact-headline-1 {
+  border:none;
+  text-align:center;
+}
+
+
+
+
 @media screen and (max-width: 550px) { 
   
     .home-grid {
