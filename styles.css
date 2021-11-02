@@ -178,6 +178,11 @@ footer {
 }
 
 /*Rivers we run text*/
+
+.banner-box {
+  position:relative;
+}
+
 #image-text {
   position:absolute;
   top:20%;
