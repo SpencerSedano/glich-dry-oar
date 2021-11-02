@@ -337,18 +337,27 @@ footer {
 .contact-image-icon2{
    grid-column: 4/6;
   grid-row:3/4;
-  width:100px;
+   width:100px;
   height:100px;
+  margin:0;
+   align-self: start;
+  justify-self: center;
 }
 .contact-icon2 {
    grid-column: 4/6;
   grid-row:3/4;
+    margin:0;
+  align-self:end;
+  justify-self:center;
 }
 .contact-image-icon3 {
    grid-column: 4/6;
   grid-row:4/5;
   width:100px;
   height:100px;
+    margin:0;
+   align-self: start;
+  justify-self: center;
 }
 .contact-icon3 {
    grid-column: 4/6;
