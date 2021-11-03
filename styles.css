@@ -383,7 +383,7 @@ form {
    grid-column: 4/6;
   grid-row:4/5;
   width:100px;
-  height:100px;
+  height:80px;
     margin:0;
   padding:1rem;
    align-self: start;
@@ -424,5 +424,17 @@ form {
   }
   nav a {
     padding:0;
+  }
+  .contact-grid {
+    display:block;
+    text-align:center;
+  }
+  .contact-image-icon1, .contact-image-icon2, .contact-image-icon3, {
+
+  }
+  .contact-icon1, .contact-icon2, .contact-icon3 {
+      display: flex;
+  align-items: center;
+  justify-content: center;
   }
 } 
