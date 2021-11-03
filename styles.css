@@ -314,6 +314,12 @@ footer {
   border:none;
   text-align:center;
   font-size:2em;
+  background-color: #335145;
+  height:100px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:white;
 }
 
 .container-form-grid {
@@ -396,6 +402,12 @@ form {
   border:none;
   text-align:center;
   font-size:2em;
+  background-color: #335145;
+  height:100px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:white;
 }
 .contact-last-image {
   grid-column: 1/6;
